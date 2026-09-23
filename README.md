@@ -1,23 +1,24 @@
 # Home Threat Intelligence & Threat Hunting Lab
 
-A personal cybersecurity lab focused on developing hands-on experience with threat intelligence, IOC analysis, threat hunting, vulnerability research, and security operations. 
+This is a personal cybersecurity lab I'm building to gain hands-on experience with threat intelligence, threat hunting, IOC analysis, and vulnerability research.
+
+The lab uses OpenCTI as the main platform for collecting and analyzing threat intelligence. As the project develops, I plan to use it to investigate real-world threats, practice threat hunting, and automate parts of the threat intelligence process.
+
+I'm particularly interested in tracking threats relevant to healthcare organizations and nonprofits supporting food insecurity initiatives.
 
 ## Objectives
 
-- Build and maintain a local threat intelligence environment 
-- Collect, organize, and analyze threat intelligence
-- Monitor emerging cybersecurity threats and vulnerabilities related to healthcare organizations
-- Monitor threats targeting nonprofits and organizations supporting food insecurity initiatives
-- Investigate indicators of compromise (IOCs) and other threat intelligence 
-- Enrich and correlate threat intelligence across multiple sources
-- Identify threats and vulnerabilities with sector-specific relevance 
-- Map relevant activity to the MITRE ATT&CK framework
-- Automate recurring threat intelligence collection and reporting
-- Generate daily threat intelligence briefings
-- Explore responsible use of AI for threat intelligence analysis and summarization
-- Develop practical skills applicable to SOC, threat intelligence, and security analyst roles
+- Build and maintain a local threat intelligence environment
+- Collect and analyze intelligence from public sources
+- Investigate indicators of compromise (IOCs)
+- Research actively exploited and emerging vulnerabilities
+- Track threats relevant to healthcare and nonprofit organizations
+- Map threat activity to MITRE ATT&CK
+- Develop practical threat hunting workflows
+- Automate threat intelligence collection and reporting
+- Experiment with AI-assisted threat analysis and summarization
 
-## Environment
+## Lab Environment
 
 - Ubuntu Linux
 - Docker
@@ -26,51 +27,50 @@ A personal cybersecurity lab focused on developing hands-on experience with thre
 - Python
 - MITRE ATT&CK
 - STIX / TAXII
-- Public threat intelligence sources
-- Vulnerability intelligence sources
-- Threat Intelligence sources and enrichment tools
-- AI-assisted analysis and reporting
+- Public threat and vulnerability intelligence sources
 
 ## Current Progress
 
-- [x] Ubuntu environment configured
-- [x] Docker environment configured
-- [x] XTM / OpenCTI deployed
-- [x] XTM One accessible
-- [ ] Configure threat intelligence connectors
-- [ ] Ingest threat intelligence
-- [ ] Perform IOC investigations
-- [ ] Develop threat hunting workflows
-- [ ] Document investigation findings
-- [ ] Create detection and hunting use cases
-- [ ] Automated daily threat intelligence collection
-- [ ] CISA KEV integration
-- [ ] Healthcare sector threat intelligence integration
-- [ ] Food Insecurity/ nonprofit threat intelligence integration
-- [ ] IOC enrichment
-- [ ] Threat relevance analysis
-- [ ] AI-assisted threat summarization
-- [ ] Automated daily report generation
-- [ ] OpenCTI integration
-- [ ] MITRE ATT&CK correlation
-- [ ] Scheduled execution
+### Completed
+- Ubuntu environment configured
+- Docker environment configured
+- XTM / OpenCTI deployed
+- XTM One accessible
+
+### In Progress
+- Configure threat intelligence connectors
+- Integrate CISA Known Exploited Vulnerabilities (KEV)
+
+### Planned
+- Ingest and analyze threat intelligence
+- Perform IOC investigations and enrichment
+- Research healthcare-sector threats
+- Research threats affecting nonprofits and food insecurity organizations
+- Develop threat hunting use cases
+- Map findings to MITRE ATT&CK
+- Automate daily threat intelligence collection
+- Generate threat intelligence briefings
+- Explore AI-assisted analysis and reporting
 
 ## Project Documentation
 
-Documentation will be added as the lab develops, including:
+As I build the lab, I'll document the configuration and investigation process, including:
 
-- Environment and deployment documentation
-- Threat intelligence source configuration
-- Threat intelligence collection workflows
-- IOC investigation and enrichment
-- Vulnerability research and analysis
-- Sector-specific threat relevance analysis
-- Threat hunting investigations and use cases
+- Environment setup and deployment
+- Threat intelligence sources and connectors
+- IOC investigations
+- Vulnerability research
+- Threat hunting workflows
 - MITRE ATT&CK mappings
-- Automated threat intelligence reporting
-- AI-assisted analysis workflows
+- Automation scripts
+- Investigation findings
 - Lessons learned and troubleshooting
-- Screenshots and other evidence of significant project milestones
 
-Sensitive information will not be included in this repository. 
+Screenshots and other evidence will be added as significant milestones are completed.
+
+## Security & Privacy
+
+This repository contains only lab configurations, public threat intelligence, sanitized examples, and documentation.
+
+Credentials, API keys, secrets, and confidential organizational information will not be included.
 
