@@ -32,17 +32,21 @@ I'm particularly interested in tracking threats relevant to healthcare organizat
 ## Current Progress
 
 ### Completed
+
 - Ubuntu environment configured
 - Docker environment configured
 - XTM / OpenCTI deployed
 - XTM One accessible
+- CISA Known Exploited Vulnerabilities (KEV) integration
+- CISA KEV vulnerability ingestion
 
 ### In Progress
-- Configure threat intelligence connectors
-- Integrate CISA Known Exploited Vulnerabilities (KEV)
+
+- Vulnerability intelligence enrichment
+- Threat Intelligence source integration
 
 ### Planned
-- Ingest and analyze threat intelligence
+
 - Perform IOC investigations and enrichment
 - Research healthcare-sector threats
 - Research threats affecting nonprofits and food insecurity organizations
@@ -67,6 +71,10 @@ As I build the lab, I'll document the configuration and investigation process, i
 - Lessons learned and troubleshooting
 
 Screenshots and other evidence will be added as significant milestones are completed.
+
+## Documentation
+
+- [CISA Known Exploited Vulnerabilities (KEV) Integration](docs/integrations/cisa-kev.md)
 
 ## Security & Privacy
 

@@ -1,0 +1,16 @@
+# CISA Known Exploited Vulnerabilities (KEV) OpenCTI Connector
+#
+# Sanitized example based on the configuration used in this lab.
+# Secrets and environment-specific values are not included.
+
+services:
+  connector-cisa-kev:
+    image: opencti/connector-cisa-known-exploited-vulnerabilities:latest
+    environment:
+      - OPENCTI_URL=http://opencti:8080
+      - OPENCTI_TOKEN=${OPENCTI_ADMIN_TOKEN}
+      - CONNECTOR_ID=${CONNECTOR_CISA_KEV_ID}
+    restart: always
+    depends_on:
+      opencti:
+        condition: service_healthy
