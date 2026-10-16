@@ -39,6 +39,8 @@ I'm particularly interested in tracking threats relevant to healthcare organizat
 - XTM One accessible
 - CISA Known Exploited Vulnerabilities (KEV) integration
 - CISA KEV vulnerability ingestion
+- CVE List V5 Connector configured and activated
+- CVE List V5 vulnerability ingestion completed
 
 ### In Progress
 
